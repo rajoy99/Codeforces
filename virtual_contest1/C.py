@@ -7,4 +7,8 @@ def isPermutation(n,arr):
 
 print(isPermutation(4,[4,3,1,2]))
 
+t=int(input())
+
+for i in range(t):
+    
 
