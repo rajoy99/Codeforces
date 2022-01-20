@@ -1,18 +1,10 @@
 t=int(input())
 
-def operation(s,l):
-    first=s[:l]
-    rest=s[l:]
-    return first[::-1]+rest
-
-
-print(operation("837",3))
-
-
 for i in range(t):
-    n=int(input)
+    n=int(input())
 
-    if n%2==0: print(0) 
+    if n%2==0: 
+        print(0) 
     else:
         s=str(n)
         flag=False
